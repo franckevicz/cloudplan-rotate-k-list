@@ -2,7 +2,7 @@
 #include <vector>
 #include <iostream>
 
-using test_case_t = std::tuple<std::vector<int>, int, std::vector<int>, bool>;
+using test_case_t = std::tuple<std::vector<int>, int, std::vector<int>, bool>; //input values, k, expected values, success
 static const std::vector<test_case_t> test_cases = {
   { { 1, 2, 3, 4, 5 }, 2, { }, false },             //to check false condition
   { { 1, 2, 3, 4, 5 }, 2, { 2, 1, 4, 3, 5 }, true },
